@@ -34,9 +34,7 @@ app.use(express.json());
             currency: 'usd',
             payment_method_types: ['card', "cashapp"],
             billing_address_collection: 'auto',
-            automatic_tax: {
-              enabled: true
-            },
+            
             shipping_address_collection: {
               allowed_countries: ['US', 'CA']
             },
